@@ -1,0 +1,25 @@
+@import "general/variabls";
+@import "general/mixins";
+@import "mainTags/nav";
+@import "mainTags/main";
+@import "mainTags/aside";
+@import "mainTags/article";
+
+@import "bootstrap/bootstrap.scss";
+
+@media screen and (max-width: 800px) {
+    main{
+        flex-direction: column; /* Cambia la direzione del flessibile in colonna */
+    }
+    aside{
+        flex-direction: column;
+            svg{
+                width: 5%;
+                padding: 1%;
+            }
+    }
+    article .card:nth-child(even){
+        display: none;
+    }
+}
+

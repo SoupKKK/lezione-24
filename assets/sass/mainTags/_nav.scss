@@ -1,0 +1,8 @@
+nav .container-fluid #rightImgs img {
+    @include MiniImg;
+    
+}
+#rightImgs{
+    margin-right: 30px;
+}
+

@@ -1,0 +1,25 @@
+article{
+    margin: 5%;
+}
+
+article h2{
+    text-align: center;
+}
+article .card{
+    margin: 15px;
+}
+
+article svg{
+    width: 16px;
+    margin: 0px 5px 0px 5px;
+}
+
+article .card-text img{
+    @include MiniImg;
+    position: relative;
+    top: 7px;
+}
+
+article .card-text svg:last-child{
+    margin-left: 80px;
+}

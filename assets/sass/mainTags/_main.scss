@@ -1,0 +1,18 @@
+
+
+main div{
+    margin: 5%;
+    
+}
+
+main{
+    background-color: $bg;
+}
+
+main div button{
+    @include btn($btncolor1);
+}
+
+main div button:last-child{
+    @include btn;
+}
